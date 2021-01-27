@@ -1,0 +1,503 @@
+!SESSION 2020-11-26 08:07:51.833 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -clean
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-26 08:09:12.785
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\com.collabnet.subversion.merge.feature_4.1.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-26 08:09:12.788
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\net.java.dev.jna_4.1.0.v06022015_1911.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-26 08:09:12.931
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator.source_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-26 08:09:12.933
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-26 08:09:12.936
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.feature_1.10.3.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-26 08:09:12.939
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.javahl.feature_1.8.15.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-26 08:09:12.942
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.svnkit.feature_1.8.9.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-26 08:09:12.944
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-26 08:09:12.948
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-26 08:09:12.951
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse_1.10.13.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-26 08:09:12.953
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tmatesoft.svnkit_1.8.12.r10533_v20160129_0158.jar
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-11-26 08:13:12.930
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\P0134105'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 5 2020-11-26 08:13:17.194
+!MESSAGE The configuration download failed. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 29 2020-11-26 08:13:17.218
+!MESSAGE Startup failed, AERI is disabled until next restart. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2020-12-03 15:42:05.991 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data D:\AWS\git\serpCheck -product org.eclipse.epp.package.jee.product -clean
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 15:42:16.522
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\com.collabnet.subversion.merge.feature_4.1.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 15:42:16.527
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\net.java.dev.jna_4.1.0.v06022015_1911.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 15:42:16.535
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator.source_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 15:42:16.539
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 15:42:16.543
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.feature_1.10.3.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 15:42:16.548
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.javahl.feature_1.8.15.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 15:42:16.553
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.svnkit.feature_1.8.9.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 15:42:16.558
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 15:42:16.562
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 15:42:16.567
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse_1.10.13.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 15:42:16.571
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tmatesoft.svnkit_1.8.12.r10533_v20160129_0158.jar
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-03 15:42:26.739
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\P0134105'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 5 2020-12-03 15:42:30.120
+!MESSAGE The configuration download failed. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 29 2020-12-03 15:42:30.131
+!MESSAGE Startup failed, AERI is disabled until next restart. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2020-12-03 17:04:33.550 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data D:\AWS\git\serpCheck -product org.eclipse.epp.package.jee.product -clean
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:04:40.983
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\com.collabnet.subversion.merge.feature_4.1.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:04:40.987
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\net.java.dev.jna_4.1.0.v06022015_1911.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:04:40.995
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator.source_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:04:40.999
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:04:41.004
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.feature_1.10.3.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:04:41.008
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.javahl.feature_1.8.15.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:04:41.013
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.svnkit.feature_1.8.9.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:04:41.017
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:04:41.021
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:04:41.026
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse_1.10.13.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:04:41.030
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tmatesoft.svnkit_1.8.12.r10533_v20160129_0158.jar
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-03 17:04:56.928
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\P0134105'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 5 2020-12-03 17:05:00.264
+!MESSAGE The configuration download failed. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 29 2020-12-03 17:05:00.271
+!MESSAGE Startup failed, AERI is disabled until next restart. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2020-12-03 17:09:04.030 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\AWS\git\serpCheck -product org.eclipse.epp.package.jee.product -clean
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:09:11.836
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\com.collabnet.subversion.merge.feature_4.1.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:09:11.841
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\net.java.dev.jna_4.1.0.v06022015_1911.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:09:11.849
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator.source_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:09:11.854
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:09:11.859
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.feature_1.10.3.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:09:11.863
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.javahl.feature_1.8.15.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:09:11.868
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.svnkit.feature_1.8.9.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:09:11.873
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:09:11.878
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:09:11.883
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse_1.10.13.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-03 17:09:11.887
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tmatesoft.svnkit_1.8.12.r10533_v20160129_0158.jar
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 5 2020-12-03 17:09:25.888
+!MESSAGE The configuration download failed. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 29 2020-12-03 17:09:25.906
+!MESSAGE Startup failed, AERI is disabled until next restart. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2020-12-04 10:22:32.840 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -clean
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 10:23:05.297
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\com.collabnet.subversion.merge.feature_4.1.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 10:23:05.300
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\net.java.dev.jna_4.1.0.v06022015_1911.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 10:23:05.306
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator.source_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 10:23:05.310
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 10:23:05.313
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.feature_1.10.3.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 10:23:05.316
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.javahl.feature_1.8.15.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 10:23:05.320
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.svnkit.feature_1.8.9.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 10:23:05.323
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 10:23:05.327
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 10:23:05.331
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse_1.10.13.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 10:23:05.334
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tmatesoft.svnkit_1.8.12.r10533_v20160129_0158.jar
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 5 2020-12-04 10:23:43.575
+!MESSAGE The configuration download failed. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 29 2020-12-04 10:23:43.699
+!MESSAGE Startup failed, AERI is disabled until next restart. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-04 10:49:36.070
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\P0134105'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-12-04 11:18:09.351 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\AWS\git\serpCheck -product org.eclipse.epp.package.jee.product -clean
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 11:18:21.047
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\com.collabnet.subversion.merge.feature_4.1.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 11:18:21.053
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\net.java.dev.jna_4.1.0.v06022015_1911.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 11:18:21.061
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator.source_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 11:18:21.066
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.mybatis.generator_1.3.1.201101032122.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 11:18:21.071
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.feature_1.10.3.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 11:18:21.077
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.javahl.feature_1.8.15.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 11:18:21.082
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.clientadapter.svnkit.feature_1.8.9.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 11:18:21.087
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 11:18:21.093
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 11:18:21.098
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tigris.subversion.subclipse_1.10.13.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-12-04 11:18:21.103
+!MESSAGE Unable to find feature.xml in directory: D:\AWS\eclipse4.5.1\features\org.tmatesoft.svnkit_1.8.12.r10533_v20160129_0158.jar
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-04 11:18:34.973
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\P0134105'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 5 2020-12-04 11:18:39.940
+!MESSAGE The configuration download failed. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 29 2020-12-04 11:18:39.962
+!MESSAGE Startup failed, AERI is disabled until next restart. Version: 1.0.1.v20150913-0716
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Json.deserialize(Json.java:67)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:75)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more

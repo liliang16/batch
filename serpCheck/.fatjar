@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Dec 17 14:50:53 CST 2020
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=C\:\\Users\\P0134105\\Desktop\\serpImport.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=
+includes=
